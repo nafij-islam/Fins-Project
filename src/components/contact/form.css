@@ -1,0 +1,9 @@
+.input-form{
+    padding: 14px ;
+    
+}
+
+.input-form::placeholder{
+   font-size: 16px;
+    
+}

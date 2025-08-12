@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.accordion-button:not(.collapsed){
+    background-color: transparent !important;
+    box-shadow: none !important;
+
+}
+
+.accordion-pad{
+    padding-top: 16px !important;
+    padding-left: 95px !important;
+}
