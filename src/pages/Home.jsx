@@ -7,7 +7,7 @@ import HomeDesignC from './../components/Home/HomeDesignC';
 import HomeAcciord from '../components/Home/HomeAcciord'
 import Homefrom from './../components/Home/Homefrom';
 import HomeBLog from './../components/Home/HomeBLog';
-import FooterCom from './../components/FooterCom';
+import SliderPart from '../components/Home/SliderPart';
 
 const Home = () => {
   return (
@@ -17,6 +17,7 @@ const Home = () => {
     <HomeWork/>
     <HomeProject/>
     <HomeDesignC/>
+    <SliderPart/>
     <HomeAcciord/>
     <Homefrom/>
     <HomeBLog/>
