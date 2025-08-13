@@ -15,12 +15,12 @@ const SliderPart = () => {
     slidesToScroll: 1,
   };
   return (
-    <section className="py-[128px]">
+    <section className="py-[128px] slider-section">
       <Container>
         <Row className="g-0">
           <Col lg={4}>
-            <div>
-              <H3Com className="text-[38px] font-poppins font-semibold pb-[16px] w-[350px]">
+            <div className="slider-heading-main">
+              <H3Com className="text-[38px] slider-hading font-poppins font-semibold pb-[16px] w-[350px]">
                 What our clients say about us
               </H3Com>
               <PtagCom className="text-[16px] font-poppins font-medium w-[400px]">
@@ -32,7 +32,7 @@ const SliderPart = () => {
           <Col lg={8}>
             <Slider {...settings}>
               <div>
-                <H3Com className="font-poppins text-[32px] font-medium ">
+                <H3Com className="font-poppins slide-text text-[32px] font-medium ">
                   "The best agency we’ve worked with so far. They understand our
                   product and are able to add new features with a great focus."
                 </H3Com>
@@ -49,7 +49,7 @@ const SliderPart = () => {
                 </div>
               </div>
               <div>
-                <H3Com className="font-poppins text-[32px] font-medium ">
+                <H3Com className="font-poppins slide-text text-[32px] font-medium ">
                   "The best agency we’ve worked with so far. They understand our
                   product and are able to add new features with a great focus."
                 </H3Com>

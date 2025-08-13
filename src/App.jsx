@@ -4,7 +4,6 @@ import {
   createRoutesFromElements,
 Route,} from "react-router";
 import { RouterProvider } from "react-router-dom";
-
 import Privacy from "./pages/Privacy";
 import Contact from "./pages/Contact";
 import Readblog from "./pages/Readblog";

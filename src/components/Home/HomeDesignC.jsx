@@ -12,17 +12,18 @@ import HomeCicon6 from "../../assets/HomCicon6.png";
 
 const HomeDesignC = () => {
   return (
-    <section className="py-[128px] bg-[#F4F6FC]">
+    <section className="py-[128px] bg-[#F4F6FC] design-section">
       <Container>
         <div className="text-center pb-[47px]">
           <PtagCom className="font-poppins font-medium pb-[12px]">
             Features
           </PtagCom>
-          <H3Com className="w-[630px] inline-block font-poppins text-[48px] font-semibold">
+          <H3Com className="w-[630px]  design-heading inline-block font-poppins text-[48px] font-semibold">
             Design that solves problems, one product at a time
           </H3Com>
         </div>
         <Row className="gap-y-[24px]">
+          <div className="design-card-main">
           <Col lg={4}>
             <Fucard
               src={HomeCicon}
@@ -68,6 +69,7 @@ const HomeDesignC = () => {
               cardtext="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. "
             />
           </Col>
+          </div>
         </Row>
       </Container>
     </section>

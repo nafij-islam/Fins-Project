@@ -13,3 +13,91 @@
     padding-top: 16px !important;
     padding-left: 95px !important;
 }
+
+/* responsive start */
+
+/* Home Work part start */
+
+@media (min-width:320px) and (max-width:575.99px){
+
+    .work-section{
+        padding: 50px 0px;
+
+    }
+
+    .work-heading{
+        font-size: 40px;
+        
+    }
+
+    .work-section .heading-part{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .work-section .heading-part .work-btn{
+        display: inline-block;
+    }
+    .work-section .work-card-main{
+        margin-left: 10px;
+    }
+}
+
+
+/*  */
+
+.project-section{
+    padding: 50px 10px ;
+}
+
+.project-heading{
+    font-size: 25px !important;
+    padding-bottom: 0px;
+}
+
+.project-section .project-heading-main{
+    align-items: center;
+    padding-bottom: 50px;
+}
+.project-section .hovermain{
+    padding-bottom: 25px;
+}
+.project-section .hoverimg2{
+    padding-bottom: 25px;
+}
+
+/*  */
+
+.design-section{
+    padding: 60px 0px;
+}
+
+.design-section .design-heading{
+    width: 380px;
+    font-size: 30px;
+}
+
+.design-section .design-card-main{
+    padding: 0px;
+}
+
+/*  */
+
+.slider-section{
+    padding: 60px 0px;
+}
+
+.slider-heading-main{
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.slider-section .slider-hading{
+    font-size: 40px;
+    text-align: center;
+    width: 400px;
+}
+
+.slider-section .slide-text{
+    font-size: 30px;
+    text-align: center;
+}

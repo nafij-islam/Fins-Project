@@ -52,3 +52,68 @@
 .card{
     border: none;
 }
+
+@media (min-width:320px) and (max-width:575.99px){
+    
+    .nav-section{
+        padding: 0px 20px !important;
+        padding-top: 20px !important;
+    }
+ 
+
+ 
+    .navbar-toggler{
+        color: transparent;
+        border: none !important;
+        background-color: #FCD980 !important;
+    }
+
+    .navbar-nav{
+        text-align: center;
+        padding: 50px 0px !important;
+        gap: 20px;
+        background-color: #FCD980;
+        margin: 0 auto;
+        width: 300px;
+        margin-top: 40px;
+        border-radius: 20px;
+    }
+    .navlist{
+        color: black !important;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    
+
+    .nav-btn{
+        background-color: black;
+    }
+  
+
+    .banner-heading{
+        width: 400px;
+        font-size: 40px;
+        line-height: 65px;
+        
+    }
+
+    .banner-section{
+        padding: 60px 0px;
+    }
+    .banner-btn1{
+        padding: 12px 25px !important; 
+        font-size: 15px;
+    }
+    
+
+      .banner-btn2{
+        font-size: 15px;
+        padding-left: 0px;
+        margin-left: 20px;
+    }
+    .banner-img{
+        padding-top: 50px;
+    }
+
+
+}

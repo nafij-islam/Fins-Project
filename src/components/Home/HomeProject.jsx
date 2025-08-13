@@ -11,10 +11,10 @@ import PtagCom from "./../PtagCom";
 
 const HomeProject = () => {
   return (
-    <section className="py-[128px]">
+    <section className="py-[128px] project-section">
       <Container>
-        <div className="flex justify-between">
-          <H3Com className="text-[48px] font-poppins font-semibold pb-[64px]">
+        <div className="flex project-heading-main justify-between">
+          <H3Com className="text-[48px] project-heading font-poppins font-semibold pb-[64px]">
             View our projects
           </H3Com>
           <Button className="flex gap-[7px] items-center">
@@ -38,7 +38,7 @@ const HomeProject = () => {
             </div>
           </Col>
           <Col lg={4}>
-            <div className="hovermain pb-[32px]">
+            <div className="hovermain hoverimg2 pb-[32px]">
               <Image src={Hoverimg2} />
               <div className="bg-gradient-to-br from-[#1c1e5334] to-[#1c1e53] hoverimg"></div>
             </div>

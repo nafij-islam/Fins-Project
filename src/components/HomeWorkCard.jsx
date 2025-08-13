@@ -7,7 +7,7 @@ const HomeWorkCard = ({src,title,pera}) => {
     <div className='pb-[45px]'>
         <img src={src}/>
         <H3Com className='pt-[16px] pb-[6px] font-poppins text-[32px] font-medium'>{title}</H3Com>
-        <PtagCom className='font-poppins w-[296px]'>{pera}</PtagCom>
+        <PtagCom className='font-poppins headin-card-pera w-[296px]'>{pera}</PtagCom>
     </div>
   )
 }
