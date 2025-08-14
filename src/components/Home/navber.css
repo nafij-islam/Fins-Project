@@ -114,6 +114,71 @@
     .banner-img{
         padding-top: 50px;
     }
+    .slider-img-part{
+        margin-left: 100px;
+    }
+    .slide-text{
+        font-size: 22px !important;
+    }
+    .accor-heading{
+        font-size:35px;
+        text-align: center;
+    }
+
+    .accor-section{
+        padding: 30px 0px;
+    }
+
+    .accor-pera{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .accordion-button {
+        font-size: 18px !important;
+    }
+
+    .accordion-pad{
+        width: 390px;
+        padding-top: 0px !important;
+        font-size: 14px;
+        padding-left: 100px !important;
+    }
+
+    .home-hover{
+        left: 0px !important;
+        padding: 40px  0px 0px 20px;
+    }
+
+    .hover-img-text{
+        font-size: 30px;
+        width: 350px;
+        line-height: 40px;
+    }
+
+    .hover-pera-text{
+        width: 350px;
+    }
+
+    .form-main{
+        padding: 20px 0px 0px 20px;
+        text-align: center;
+    }
+
+    .form-pera{
+        width: 340px;
+        display: inline-block;
+    }
+    .form-part{
+        width: 350px;
+    }
+
+    .form-part input{
+        padding: 10px 20px;
+    }
+    .form-btn{
+        padding: 20px 0px;
+        
+    }  
 
 
 }

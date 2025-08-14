@@ -36,7 +36,7 @@ const SliderPart = () => {
                   "The best agency we’ve worked with so far. They understand our
                   product and are able to add new features with a great focus."
                 </H3Com>
-                <div className="pt-[38px] flex items-center gap-[14px]">
+                <div className="pt-[38px] slider-img-part flex items-center gap-[14px]">
                   <Image src={sliderimg} />
                   <div>
                     <H3Com className="text-[18px] font-poppins font-medium pb-[3px]">
@@ -53,7 +53,7 @@ const SliderPart = () => {
                   "The best agency we’ve worked with so far. They understand our
                   product and are able to add new features with a great focus."
                 </H3Com>
-                <div className="pt-[38px] flex items-center gap-[14px]">
+                <div className="pt-[38px] slider-img-part flex items-center gap-[14px]">
                   <Image src={sliderimg} />
                   <div>
                     <H3Com className="text-[18px] font-poppins font-medium pb-[3px]">

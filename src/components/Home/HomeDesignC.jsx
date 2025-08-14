@@ -23,7 +23,7 @@ const HomeDesignC = () => {
           </H3Com>
         </div>
         <Row className="gap-y-[24px]">
-          <div className="design-card-main">
+          <div className="design-card-main flex flex-wrap gap-y-[20px]">
           <Col lg={4}>
             <Fucard
               src={HomeCicon}

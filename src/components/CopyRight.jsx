@@ -9,7 +9,7 @@ const CopyRight = () => {
             <div className='flex justify-between'>
                     <PtagCom className='mb-[0px] font-poppins text-[16px] font-medium'>Copyright 2022, Finsweet.com</PtagCom>
                 <div>
-                    <ul className='flex gap-[32px] mb-0'>
+                    <ul className='flex flex-wrap gap-[32px] mb-0'>
                         <li className='font-poppins font-medium' >Home</li>
                         <li className='font-poppins font-medium' >About us</li>
                         <li className='font-poppins font-medium' >Features</li>

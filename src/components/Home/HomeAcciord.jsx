@@ -5,14 +5,14 @@ import PtagCom from "./../PtagCom";
 
 const FuLast = () => {
   return (
-    <section className="py-[128px]">
+    <section className="py-[128px] accor-section">
       <Container>
         <Row>
           <Col lg={3}>
-            <H3Com className="font-poppins text-[38px] font-semibold leading-[56px] pb-[16px] ">
+            <H3Com className="font-poppins accor-heading text-[38px] font-semibold leading-[56px] pb-[16px] ">
               Frequently asked question
             </H3Com>
-            <PtagCom className="text-[#2405F2]">
+            <PtagCom className="text-[#2405F2] accor-pera">
               Contact us for more info
             </PtagCom>
           </Col>
@@ -20,8 +20,8 @@ const FuLast = () => {
           <Col lg={{ span: 8, offset: 1 }}>
             <Accordion defaultActiveKey="0">
               <Accordion.Item className="border-0 pb-[20px]" eventKey="0">
-                <Accordion.Header>
-                  <span className="pr-[60px] text-[#2405F2]">01</span>How much time does it
+                <Accordion.Header className="acco-title">
+                  <span className="pr-[60px]  text-[#2405F2]">01</span>How much time does it
                   take ?
                 </Accordion.Header>
                 <Accordion.Body className="accordion-pad w-[580px]">
@@ -33,7 +33,7 @@ const FuLast = () => {
 
                <Accordion.Item className="border-0 pb-[20px]" eventKey="1">
                 <Accordion.Header>
-                  <span className="pr-[60px] text-[#2405F2]">02</span>What is your class naming convention ?
+                  <span className="pr-[60px] accor-number text-[#2405F2]">02</span>What is your class naming convention ?
                 </Accordion.Header>
                 <Accordion.Body className="accordion-pad w-[580px]">
                   Apparently we had reached a great height in the atmosphere,
