@@ -1,0 +1,58 @@
+.card-main{
+    height: 645px;
+    width: 405px;
+    background-color: #F4F6FC;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.8s;
+    
+}
+
+
+
+.card-main:hover{
+    background-color: #1C1E53;
+    transition: 1s;
+    transform: scale(1.1);
+}
+.card-main:hover .text-color{
+    color: white !important;
+    transition: 0.8s;
+
+}
+
+
+.card-main .card-inner{
+    height: 1000px;
+    width: 1000px;
+    background-color: rgba(255, 255, 255, 0.068);
+    position: absolute;
+    top: -490px;
+    left: 50%;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    
+    
+}
+
+.card-main .card-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 64px;
+    padding-left: 48px;
+}
+
+.card-main:hover .list-text{
+  color: white;
+  transition: 0.8s;
+}
+
+.card-main:hover .card-btn{
+   background-color: #FCD980;
+   transition: 0.8s;
+   color: black !important;
+   
+
+}
