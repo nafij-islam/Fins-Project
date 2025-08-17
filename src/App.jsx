@@ -20,21 +20,21 @@ let route = createBrowserRouter(
   createRoutesFromElements(
     <Route element={<Rootlayout />}>
       <Route index element={<Home />}></Route>
-      <Route path="/About" element={<About />}></Route>
-      <Route path="/Privacy" element={<Privacy />}></Route>
-      <Route path="/Contact" element={<Contact />}></Route>
-      <Route path="/Readblog" element={<Readblog />}></Route>
-      <Route path="/Blog" element={<Blog />}></Route>
-      <Route path="/ReadCase" element={<ReadCase />}></Route>
-      <Route path="/Work" element={<Work />}></Route>
-      <Route path="/Pricing" element={<Pricing />}></Route>
-      <Route path="/Features" element={<Features />}></Route>
+      <Route path="/about" element={<About />}></Route>
+      <Route path="/privacy" element={<Privacy />}></Route>
+      <Route path="/contact" element={<Contact />}></Route>
+      <Route path="/readblog" element={<Readblog />}></Route>
+      <Route path="/blog" element={<Blog />}></Route>
+      <Route path="/readCase" element={<ReadCase />}></Route>
+      <Route path="/work" element={<Work />}></Route>
+      <Route path="/pricing" element={<Pricing />}></Route>
+      <Route path="/features" element={<Features />}></Route>
     </Route>
   )
 );
 
 const App = () => {
-  return <RouterProvider router={route} />;
+  return <RouterProvider router={route} /> ;
 };
 
 export default App;

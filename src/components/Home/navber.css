@@ -53,6 +53,11 @@
     border: none;
 }
 
+
+.work-card-main{
+    display: flex;
+    flex-wrap: wrap;
+}
 @media (min-width:320px) and (max-width:575.99px){
     
     .nav-section{

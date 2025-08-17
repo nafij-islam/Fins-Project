@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import './navber.css'
 import H3Com from "./../H3Com";
 import PtagCom from "./../PtagCom";
 import Button from "./../Button";
