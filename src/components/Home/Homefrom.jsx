@@ -9,11 +9,11 @@ import Button from "./../Button";
 const Homefrom = () => {
   return (
     <section className="py-[128px]">
-      <Container>
+      <Container className="g-0">
         <Row className="fromhmain g-0">
-          <Col lg={6}>
-            <div className="fromhoveranim">
-              <Image src={Formimg} />
+          <Col lg={6} >
+            <div className="fromhoveranim h-100 ">
+              <Image  src={Formimg} />
               <div className="py-[96px] pl-[96px] home-hover bg-[#1c1e537e] fromhovertext">
                 <H3Com className="font-poppins hover-img-text text-white text-[54px] pb-[24px] font-semibold w-[480px] leading-[75px]">
                   Building stellar websites for early startups
@@ -28,7 +28,7 @@ const Homefrom = () => {
           </Col>
 
           <Col className="z-10" lg={6}>
-            <div className="bg-[#1C1E53] pt-[96px] form-main pl-[96px] pr[96px]">
+            <div className="bg-[#1C1E53] h-[695px] pt-[96px]  form-main pl-[96px] pr[96px]">
               <H3Com className="font-poppins text-[32px] pb-[16px] font-medium text-white">
                 Send inquiry
               </H3Com>

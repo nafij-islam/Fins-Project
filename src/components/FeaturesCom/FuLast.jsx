@@ -46,7 +46,7 @@ const FuLast = () => {
                   <span className="pr-[60px] text-[#2405F2]">03</span>How do we communicate ?
                 </Accordion.Header>
                 <Accordion.Body className="accordion-pad w-[580px]">
-                  Apparently we had reached a great height in the atmosphere,
+                  Apparentledy we had reached a great height in the atmosphere,
                   for the sky was a dead black, and the stars had ceased to
                   twinkle.
                 </Accordion.Body>

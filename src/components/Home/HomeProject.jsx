@@ -37,7 +37,7 @@ const HomeProject = () => {
               </div>
             </div>
           </Col>
-          <Col lg={4}>
+          <Col lg={4} >
             <div className="hovermain hoverimg2 pb-[32px]">
               <Image src={Hoverimg2} />
               <div className="bg-gradient-to-br from-[#1c1e5334] to-[#1c1e53] hoverimg"></div>

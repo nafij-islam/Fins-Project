@@ -11,7 +11,7 @@ const HomeBLog = () => {
   return (
     <section className='py-[128px]'>
         <Container>
-            <H3Com className="font-poppins text-[48px] font-semibold">
+            <H3Com className="font-poppins text-[46px] font-semibold">
           Our Blog
         </H3Com>
 

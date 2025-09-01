@@ -6,13 +6,48 @@ import Image from "../Image";
 import sliderimg from "../../assets/sliderimg.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
+import { FaArrowCircleRight } from "react-icons/fa";
+import { FaArrowCircleLeft } from "react-icons/fa";
+
+
+
+
+
+function SampleNextArrow(props) {
+  const { onClick } = props;
+  return (
+    <div
+      
+      onClick={onClick}
+    >
+     <FaArrowCircleRight />
+ 
+     </div>
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { onClick } = props;
+  return (
+    <div
+      
+      onClick={onClick}
+    >
+      <FaArrowCircleLeft />
+
+    </div>
+  );
+}
+
 
 const SliderPart = () => {
   var settings = {
-    infinite: true,
+    infinite: true, 
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />
   };
   return (
     <section className="py-[128px] slider-section">
