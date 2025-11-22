@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 
 const Navber = () => {
   return (
-    <section className="bg-[#1C1E53] nav-section py-[16px]" >
+    <section className="bg-[#242769] nav-section py-[16px]" >
       <Container className="g-0">
         <Navbar expand="lg" className="">
           <Navbar.Brand href="#home">
